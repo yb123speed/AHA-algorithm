@@ -24,6 +24,7 @@ def quicksort(left, right):
     
     scores[left] = scores[i]
     scores[i] = temp
+    print(scores)
     quicksort(left,i-1)
     quicksort(i+1,right)
 
